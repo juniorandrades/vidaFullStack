@@ -1,9 +1,4 @@
-header {
-  width: 1024px;
-  margin: 30px auto;
-
-  display: flex;
-  flex-direction: row;
+header section {
   justify-content: space-between;
   align-items: center;
 }
@@ -19,4 +14,14 @@ header nav ul li a {
   margin: 0 17px;
   font-size: 24px;
   color: #3399cc;
+}
+
+header nav ul li a {
+  transition: all 0.5s;
+}
+
+header nav ul li:hover {
+  transition: 0.3s;
+  transform: scale(1.10);
+
 }
