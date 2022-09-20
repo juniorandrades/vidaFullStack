@@ -1,12 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-@import url(header.css);
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
 
+/* COMPONENTS */
+@import "./header.css";
+@import "./buttons.css";
+
+
+/* RESET CSS */
 * {
   padding: 0;
   margin: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
 }
