@@ -1,0 +1,29 @@
+/* RESET CSS */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  width: 1024px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-image: url(../images/bolha-background.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}

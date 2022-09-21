@@ -2,41 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap');
 
 /* COMPONENTS */
+@import "./bootstrap.css";
 @import "./header.css";
 @import "./buttons.css";
 @import "./main.css";
 @import "./footer.css";
-@import "./responsive.css";
-
-
-
-
-/* RESET CSS */
-* {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  font-family: 'Source Sans Pro', sans-serif;
-  text-decoration: none;
-}
-
-.container {
-  width: 1024px;
-  margin: 30px auto;
-  display: flex;
-  flex-direction: column;
-}
-
-body {
-  background-image: url(../images/bolha-background.png);
-  background-position: left center;
-  background-repeat: no-repeat;
-
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-}
+@import "./responsive-background.css";
+@import "./responsive-elements.css";
