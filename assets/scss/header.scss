@@ -1,27 +1,46 @@
-header section {
-  justify-content: space-between;
-  align-items: center;
-}
+header {
 
-header nav ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  align-items: center;
-}
+  //Section
+  section {
+    justify-content: space-between;
+    align-items: center;
+  }
 
-header nav ul li a {
-  margin: 0 17px;
-  font-size: 19px;
-  color: $color-primary;
-}
+  //End section
 
-header nav ul li a {
-  transition: all 0.5s;
-}
+  //nav
+  nav {
 
-header nav ul li:hover {
-  transition: 0.3s;
-  transform: scale(1.10);
+    //ul
+    ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      align-items: center;
 
+      //li
+      li {
+
+        //a
+        a {
+          margin: 0 17px;
+          font-size: 19px;
+          color: $color-primary;
+          transition: all 0.5s;
+        }
+
+        &:hover {
+          transition: 0.3s;
+          transform: scale(1.10);
+
+        }
+      }
+
+      //end li
+    }
+
+    //end ul
+  }
+
+  //end nav
 }

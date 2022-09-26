@@ -34,24 +34,18 @@ header section {
   justify-content: space-between;
   align-items: center;
 }
-
 header nav ul {
   display: flex;
   flex-direction: row;
   list-style: none;
   align-items: center;
 }
-
 header nav ul li a {
   margin: 0 17px;
   font-size: 19px;
   color: #3399CC;
-}
-
-header nav ul li a {
   transition: all 0.5s;
 }
-
 header nav ul li:hover {
   transition: 0.3s;
   transform: scale(1.1);
@@ -61,8 +55,7 @@ header nav ul li:hover {
   padding: 5px 30px;
   border-radius: 20px;
 }
-
-.btn-laranja {
+.btn.btn-laranja {
   background-color: #FF6633;
   color: #FFFFFF;
 }
@@ -71,18 +64,15 @@ header nav ul li:hover {
   align-items: center;
   justify-content: space-between;
 }
-
 .sobre-web-design article {
   width: 300px;
 }
-
 .sobre-web-design article h1 {
   font-size: 70px;
   font-weight: 400;
   line-height: 90%;
   color: #333366;
 }
-
 .sobre-web-design article h2 {
   font-size: 30px;
   color: #3399CC;
@@ -90,14 +80,12 @@ header nav ul li:hover {
   font-weight: 400;
   line-height: 200%;
 }
-
 .sobre-web-design article p {
   color: #3399CC;
   text-align: start;
   margin-top: 10px;
   margin-bottom: 30px;
 }
-
 .sobre-web-design figure img {
   width: 700px;
 }
@@ -106,7 +94,6 @@ footer ul li {
   list-style: none;
   margin-left: 25px;
 }
-
 footer ul li a img {
   width: 30px;
 }
@@ -169,6 +156,10 @@ footer ul li a img {
   .row {
     flex-direction: column;
   }
+  footer .row {
+    flex-direction: row;
+    justify-content: center;
+  }
   header nav ul {
     flex-direction: column;
     margin-top: 20px;
@@ -176,13 +167,9 @@ footer ul li a img {
   header nav ul li {
     margin-bottom: 15px;
   }
-  body {
+  header nav ul body {
     background-position-y: left -200px;
     background-color: #B1F4FF;
-  }
-  footer .row {
-    flex-direction: row;
-    justify-content: center;
   }
   .sobre-web-design article {
     width: 100%;
@@ -192,12 +179,12 @@ footer ul li a img {
     width: 100%;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 915px) and (max-width: 650px) {
   .container {
     width: 400px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 915px) and (max-width: 450px) {
   .container {
     width: 300px;
   }

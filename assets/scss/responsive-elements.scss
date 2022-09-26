@@ -3,8 +3,20 @@
     width: 950px;
   }
 
-  .sobre-web-design figure img {
-    width: 650px;
+  .sobre-web-design {
+
+    //figure
+    figure {
+
+      //img
+      img {
+        width: 650px;
+      }
+
+      //end img
+    }
+
+    //end figure
   }
 }
 
@@ -13,9 +25,19 @@
     width: 950px;
   }
 
-  .sobre-web-design figure img {
-    width: 600px;
+  .sobre-web-design //figure
+
+  figure {
+
+    //img
+    img {
+      width: 600px;
+    }
+
+    //end img
   }
+
+  //end figure
 }
 
 @media (max-width: 915px) {
@@ -27,51 +49,103 @@
     flex-direction: column;
   }
 
-  header nav ul {
-    flex-direction: column;
-    margin-top: 20px;
+  //footer
+  footer {
+
+    //row
+    .row {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    //end row
   }
 
-  header nav ul li {
-    margin-bottom: 15px;
+  //end footer
+
+  header {
+
+    //nav
+    nav {
+
+      //ul
+      ul {
+        flex-direction: column;
+        margin-top: 20px;
+
+        //li
+        li {
+          margin-bottom: 15px;
+        }
+
+        //end li
+
+        //body
+        body {
+          background-position-y: left -200px;
+          background-color: $color-quaternary;
+        }
+
+        //end body
+
+      }
+
+      //end ul
+    }
+
+    //end nav
   }
 
-  body {
-    background-position-y: left -200px;
-    background-color: $color-quaternary;
+  .sobre-web-design {
+
+    //article
+    article {
+      width: 100%;
+      margin: 30px 0;
+    }
+
+    //end article
+
+    //figure
+    figure {
+
+      //img
+      img {
+        width: 100%;
+      }
+
+      //end img
+    }
+
+    //end figure
   }
 
-  footer .row {
-    flex-direction: row;
-    justify-content: center;
+  @media (max-width: 650px) {
+    .container {
+      width: 400px;
+    }
   }
 
-  .sobre-web-design article {
-    width: 100%;
-    margin: 30px 0;
-  }
+  @media (max-width: 450px) {
+    .container {
+      width: 300px;
+    }
 
-  .sobre-web-design figure img {
-    width: 100%;
-  }
-}
+    //header
+    header {
 
-@media (max-width: 650px) {
-  .container {
-    width: 400px;
-  }
-}
+      //nav
+      nav {
+        background-color: #fff;
+        width: 100%;
+        margin-top: 40px;
+        padding: 10px 0 20px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      }
 
-@media (max-width: 450px) {
-  .container {
-    width: 300px;
-  }
+      //end nav
+    }
 
-  header nav {
-    background-color: #fff;
-    width: 100%;
-    margin-top: 40px;
-    padding: 10px 0 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    //end header
   }
 }

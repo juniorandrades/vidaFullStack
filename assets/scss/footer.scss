@@ -1,8 +1,25 @@
-footer ul li {
-  list-style: none;
-  margin-left: 25px;
-}
+footer {
 
-footer ul li a img {
-  width: $social-media-icons;
+  //Ul
+  ul {
+
+    //Li
+    li {
+      list-style: none;
+      margin-left: 25px;
+
+      //a
+      a {
+        img {
+          width: $social-media-icons;
+        }
+      }
+
+      //end-a
+    }
+
+    //end-li
+  }
+
+  //End-ul
 }
