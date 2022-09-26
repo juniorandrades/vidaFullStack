@@ -45,7 +45,7 @@ header nav ul {
 header nav ul li a {
   margin: 0 17px;
   font-size: 19px;
-  color: #3399cc;
+  color: #3399CC;
 }
 
 header nav ul li a {
@@ -62,7 +62,7 @@ header nav ul li:hover {
 }
 
 .btn-laranja {
-  background-color: #ff6633;
+  background-color: #FF6633;
   color: white;
   border-radius: 20px;
 }
@@ -85,14 +85,14 @@ header nav ul li:hover {
 
 .sobre-web-design article h2 {
   font-size: 30px;
-  color: #3399cc;
+  color: #3399CC;
   letter-spacing: 2px;
   font-weight: 400;
   line-height: 200%;
 }
 
 .sobre-web-design article p {
-  color: #3399cc;
+  color: #3399CC;
   text-align: start;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -178,7 +178,7 @@ footer ul li a img {
   }
   body {
     background-position-y: left -200px;
-    background-color: #b1f4ff;
+    background-color: #B1F4FF;
   }
   footer .row {
     flex-direction: row;
