@@ -9,14 +9,14 @@
 }
 
 .sobre-web-design article h1 {
-  font-size: 70px;
+  font-size: $font-h1;
   font-weight: 400;
   line-height: 90%;
   color: $color-secondary;
 }
 
 .sobre-web-design article h2 {
-  font-size: 30px;
+  font-size: $font-h2;
   color: $color-primary;
   letter-spacing: 2px;
   font-weight: 400;
